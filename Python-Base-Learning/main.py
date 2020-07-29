@@ -1,8 +1,6 @@
 """
 ! Найти все делители числа N и записать его в словарь
 """
-result_dict = {}
-
 
 def Div(n):
     result = [1, n]
@@ -12,7 +10,19 @@ def Div(n):
     return sorted(result)
 
 
-n = int(input("Введите свое число: "))
-result_dict[n] = Div(n)
+def addDiv():
+    result_dict = {}
+    n = int(input("Введите свое число: "))
+    result_dict[n] = Div(n)
 
-print(result_dict)
+    return result_dict
+
+
+x=7
+y=5
+
+print("{x} sdopjgspog {y}")
+print(f"{x} sdopjgspog {y}")
+
+
+
